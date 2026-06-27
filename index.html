@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dildon J | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Dildon J</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-tag">B.Com Graduate → Full Stack Developer</p>
+      <h1 class="hero-title">Hi, I'm <span class="highlight">Dildon J</span></h1>
+      <p class="hero-sub">I build fast, clean, and functional web applications. Currently learning React, Node.js & MySQL to deliver real business value through code.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-dots">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <pre class="code-block"><code><span class="c-keyword">const</span> <span class="c-var">developer</span> = {
+  <span class="c-key">name</span>: <span class="c-str">"Dildon J"</span>,
+  <span class="c-key">role</span>: <span class="c-str">"Full Stack Dev"</span>,
+  <span class="c-key">skills</span>: [
+    <span class="c-str">"HTML"</span>, <span class="c-str">"CSS"</span>,
+    <span class="c-str">"JavaScript"</span>, <span class="c-str">"React"</span>,
+    <span class="c-str">"Node.js"</span>, <span class="c-str">"MySQL"</span>
+  ],
+  <span class="c-key">available</span>: <span class="c-bool">true</span>
+};</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-tag">Who I Am</p>
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a B.Com graduate from V.O.C. College, Manonmaniam Sundaranar University (2026), transitioning into full stack web development. My background in commerce gives me a unique edge — I understand <strong>business logic</strong> as much as I understand code.</p>
+          <p>I started with Python and SQL for data analytics, and now I'm building full stack web applications using React, Node.js, Express.js, and MySQL. I'm passionate about creating solutions that are both technically solid and business-relevant.</p>
+          <p>Based in <strong>Thoothukudi, Tamil Nadu</strong> — open to opportunities in Chennai, Bangalore, and Hyderabad.</p>
+        </div>
+        <div class="about-cards">
+          <div class="stat-card">
+            <span class="stat-num">2+</span>
+            <span class="stat-label">GitHub Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">B.Com</span>
+            <span class="stat-label">Graduate 2026</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">Open</span>
+            <span class="stat-label">To Relocate</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="section-tag">What I Know</p>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Frontend</h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-icon">🌐</span> HTML5</div>
+            <div class="skill-item"><span class="skill-icon">🎨</span> CSS3</div>
+            <div class="skill-item"><span class="skill-icon">⚡</span> JavaScript (ES6+)</div>
+            <div class="skill-item skill-learning"><span class="skill-icon">⚛️</span> React <span class="badge">Learning</span></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Backend</h3>
+          <div class="skill-list">
+            <div class="skill-item skill-learning"><span class="skill-icon">🟢</span> Node.js <span class="badge">Learning</span></div>
+            <div class="skill-item skill-learning"><span class="skill-icon">🚀</span> Express.js <span class="badge">Learning</span></div>
+            <div class="skill-item"><span class="skill-icon">🐍</span> Python</div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Database & Tools</h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-icon">🗄️</span> MySQL</div>
+            <div class="skill-item"><span class="skill-icon">📊</span> SQL</div>
+            <div class="skill-item"><span class="skill-icon">📈</span> Power BI</div>
+            <div class="skill-item"><span class="skill-icon">📉</span> Excel</div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Dev Tools</h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-icon">🐙</span> Git & GitHub</div>
+            <div class="skill-item"><span class="skill-icon">💻</span> VS Code</div>
+            <div class="skill-item"><span class="skill-icon">🖥️</span> Windows / Terminal</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="section-tag">What I've Built</p>
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">📊</span>
+            <div class="project-links">
+              <a href="https://github.com/Diablo-24-zz/excel-salary-dashboard" target="_blank" class="project-link">GitHub ↗</a>
+            </div>
+          </div>
+          <h3 class="project-title">Excel Salary Dashboard</h3>
+          <p class="project-desc">An interactive Excel dashboard analyzing salary data across departments. Features dynamic charts, pivot tables, and advanced formulas for business decision-making.</p>
+          <div class="project-tags">
+            <span class="tag">Excel</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">Data Analysis</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🎓</span>
+            <div class="project-links">
+              <a href="https://github.com/Diablo-24-zz/student-management-system" target="_blank" class="project-link">GitHub ↗</a>
+            </div>
+          </div>
+          <h3 class="project-title">Student Management System</h3>
+          <p class="project-desc">A Python CLI application with full CRUD operations — Add, View, Update, Delete, Search and Sort students. Built with clean code structure and error handling.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">CRUD</span>
+            <span class="tag">CLI App</span>
+          </div>
+        </div>
+
+        <div class="project-card project-coming">
+          <div class="project-header">
+            <span class="project-icon">🛒</span>
+            <div class="coming-badge">Coming Soon</div>
+          </div>
+          <h3 class="project-title">E-Commerce Web App</h3>
+          <p class="project-desc">A full stack e-commerce application with user authentication, product listings, cart functionality, and order management. Built with React, Node.js, and MySQL.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Express</span>
+          </div>
+        </div>
+
+        <div class="project-card project-coming">
+          <div class="project-header">
+            <span class="project-icon">💼</span>
+            <div class="coming-badge">Coming Soon</div>
+          </div>
+          <h3 class="project-title">Job Board App</h3>
+          <p class="project-desc">A full stack job listing platform where companies can post jobs and candidates can apply. Features filtering, search, and user roles with JWT authentication.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">JWT</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <p class="section-tag">Get In Touch</p>
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-intro">I'm currently looking for opportunities as a Software Engineer Trainee or Full Stack Developer. If you have a role that fits, let's talk!</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span>Thoothukudi, Tamil Nadu (Open to Relocate)</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">🐙</span>
+              <a href="https://github.com/Diablo-24-zz" target="_blank">github.com/Diablo-24-zz</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <span>dildon525@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Your Name" class="form-input" required />
+          <input type="email" placeholder="Your Email" class="form-input" required />
+          <textarea placeholder="Your Message" class="form-input form-textarea" rows="4" required></textarea>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-note" id="formMsg"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Built by <strong>Dildon J</strong> · 2026</p>
+      <p class="footer-sub">B.Com Graduate → Full Stack Developer</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
